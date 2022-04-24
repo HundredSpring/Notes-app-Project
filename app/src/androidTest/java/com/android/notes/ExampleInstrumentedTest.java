@@ -1,4 +1,4 @@
-package com.rick.notes;
+package com.android.notes;
 
 import android.content.Context;
 

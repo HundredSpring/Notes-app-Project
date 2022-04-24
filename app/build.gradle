@@ -4,10 +4,9 @@ plugins {
 
 android {
     compileSdkVersion 30
-    buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "com.rick.notes"
+        applicationId "com.android.notes"
         minSdkVersion 23
         targetSdkVersion 30
         versionCode 1

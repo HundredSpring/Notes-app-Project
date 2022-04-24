@@ -1,4 +1,4 @@
-package com.rick.notes.activites;
+package com.android.notes.activites;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -32,9 +32,9 @@ import androidx.core.content.ContextCompat;
 
 import com.bumptech.glide.Glide;
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
-import com.rick.notes.R;
-import com.rick.notes.database.NotesDatabase;
-import com.rick.notes.entities.Note;
+import com.android.notes.R;
+import com.android.notes.database.NotesDatabase;
+import com.android.notes.entities.Note;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

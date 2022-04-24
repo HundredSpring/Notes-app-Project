@@ -1,4 +1,4 @@
-package com.rick.notes.adapters;
+package com.android.notes.adapters;
 
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
@@ -15,9 +15,9 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.makeramen.roundedimageview.RoundedImageView;
-import com.rick.notes.R;
-import com.rick.notes.entities.Note;
-import com.rick.notes.listeners.NotesListener;
+import com.android.notes.R;
+import com.android.notes.entities.Note;
+import com.android.notes.listeners.NotesListener;
 
 import java.util.ArrayList;
 import java.util.List;

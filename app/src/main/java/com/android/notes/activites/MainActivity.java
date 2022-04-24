@@ -1,4 +1,4 @@
-package com.rick.notes.activites;
+package com.android.notes.activites;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -13,7 +13,6 @@ import android.os.Bundle;
 import android.provider.MediaStore;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.util.Log;
 import android.util.Patterns;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -29,11 +28,11 @@ import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 
-import com.rick.notes.R;
-import com.rick.notes.adapters.NotesAdapter;
-import com.rick.notes.database.NotesDatabase;
-import com.rick.notes.entities.Note;
-import com.rick.notes.listeners.NotesListener;
+import com.android.notes.R;
+import com.android.notes.adapters.NotesAdapter;
+import com.android.notes.database.NotesDatabase;
+import com.android.notes.entities.Note;
+import com.android.notes.listeners.NotesListener;
 
 import java.util.ArrayList;
 import java.util.List;
